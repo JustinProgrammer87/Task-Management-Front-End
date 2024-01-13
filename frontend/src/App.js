@@ -4,7 +4,7 @@ import TaskList from "./components/TaskList";
 import AddTask from "./components/AddTask";
 import SearchBar from "./components/SearchBar";
 import Navbar from "./components/Navbar";
-import { Routes, Route } from 'react-router-dom';
+import { Routes, Route } from "react-router-dom";
 
 function App() {
   const [tasks, setTasks] = useState([]);
@@ -35,15 +35,18 @@ function App() {
         <AddTask onAdd={addTask} />
         <SearchBar onSearch={(query) => setSearchQuery(query)} />
         <Routes>
-          <Route path="/" element={
-            <TaskList
-              tasks={tasks.filter((task) =>
-                task.text.toLowerCase().includes(searchQuery.toLowerCase())
-              )}
-              onToggleTask={toggleTask}
-              onDeleteTask={deleteTask}
-            />
-          } />
+          <Route
+            path="/"
+            element={
+              <TaskList
+                tasks={tasks.filter((task) =>
+                  task.text.toLowerCase().includes(searchQuery.toLowerCase())
+                )}
+                onToggleTask={toggleTask}
+                onDeleteTask={deleteTask}
+              />
+            }
+          />
           {/* Add more <Route> elements here as needed */}
         </Routes>
       </header>
