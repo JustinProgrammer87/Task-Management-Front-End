@@ -92,5 +92,4 @@ License
 Distributed under the MIT License. See LICENSE for more information.
 Contact
 
-For any questions or feedback, please reach out to Justin Johnson.
-Acknowledgements
+For any questions or feedback, please reach out to JustinJohnsonprogrammer@outlook.com
