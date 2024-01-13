@@ -1,59 +1,65 @@
 # Task Management Front End
 
-## Project Overview
+## Overview
 
-This project is the front end for a task management application. It is designed to provide users with a seamless interface to manage their daily tasks efficiently.
+The Task Management Front End is a responsive web application designed to help users organize and track their daily tasks with ease. Built with React and Redux, it showcases a modern approach to web development with a focus on user experience and efficient state management.
 
 ## Features
 
-- User authentication
-- Task creation, editing, and deletion
-- Task prioritization and categorization
-- Calendar integration for task deadlines
+- **Responsive Design**: Crafted to provide an optimal viewing experience across a wide range of devices.
+- **User Authentication**: Secure user login functionality to keep individual task lists private.
+- **Task Management**: Create, edit, and delete tasks, providing full control over your to-do list.
+- **Task Prioritization**: Organize tasks by priority levels for efficient task management.
+- **Search Functionality**: Quickly find tasks using keyword search.
+- **Styling with Styled-components**: Utilizes styled-components for scoped styling and a cleaner component structure.
 
-## Technology Stack
+## Getting Started
 
-- React.js
-- Redux for state management
-- Styled-components for styling
-- Axios for API calls
+To get a local copy up and running, follow these simple steps:
 
-## Setup and Installation
+### Prerequisites
 
-To set up this project locally, follow these steps:
+Before you begin, ensure you have the following installed:
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://npmjs.com/)
+
+### Installation
 
 1. Clone the repository:
 
-git clone https://github.com/JustinProgrammer87/Task-Management-Front-End
+   ```sh
+   git clone https://github.com/JustinProgrammer87/Task-Management-Front-End.git
 
-2. Navigate to the project directory:
+   ```
 
-cd task-management-front-end
+2. Navigate to the project's root directory:
+   cd Task-Management-Front-End
 
-3. Install dependencies:
-
-npm install
+3. Install NPM packages:
+   npm install
 
 4. Start the development server:
+   npm start
 
-npm start
+The application will open in your default browser at http://localhost:3000.
 
-## Contributing
+Built With
 
-Contributions to the project are welcome! Please follow these steps to contribute:
+    React - A JavaScript library for building user interfaces.
+    Redux - A predictable state container for JavaScript apps.
+    Styled-components - Visual primitives for the component age.
 
-1. Fork the repository
-2. Create a new branch: `git checkout -b feature-branch-name`
-3. Make your changes and commit them: `git commit -m 'Add some feature'`
-4. Push to the original branch: `git push origin feature-branch-name`
-5. Create the pull request
+Contributing
 
-Alternatively, see the GitHub documentation on [creating a pull request](https://help.github.com/en/articles/creating-a-pull-request).
+We welcome contributions to the Task Management Front End project. If you're interested in contributing, please follow these steps:
 
-## License
+1. Fork the project. 2. Create your feature branch (git checkout -b feature/AmazingFeature). 3. Commit your changes (git commit -m 'Add some AmazingFeature'). 4. Push to the branch (git push origin feature/AmazingFeature). 5. Open a pull request.
 
-This project is licensed under the [MIT License](LICENSE.md).
+License
 
-## Contact
+Distributed under the MIT License. See LICENSE for more information.
+Contact
 
-For any queries or feedback, please contact Justinjohnsonprogrammer@outlook.com.
+For any questions or feedback, please reach out to Justin Johnson.
+Acknowledgements
