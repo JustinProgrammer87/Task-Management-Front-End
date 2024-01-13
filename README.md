@@ -90,6 +90,5 @@ We welcome contributions to the Task Management Front End project. If you're int
 License
 
 Distributed under the MIT License. See LICENSE for more information.
-Contact
 
 For any questions or feedback, please reach out to JustinJohnsonprogrammer@outlook.com
